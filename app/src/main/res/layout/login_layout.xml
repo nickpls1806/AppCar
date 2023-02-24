@@ -10,7 +10,10 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Usuario"/>
+        android:text="Usuario"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#687596"/>
 
     <EditText
         android:layout_width="match_parent"
@@ -19,7 +22,10 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Senha"/>
+        android:text="Senha"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#687596"/>
 
 
     <EditText
@@ -30,9 +36,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Login"
+        android:textColor="#687596"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Close"
+        android:textColor="#687596"/>
 </LinearLayout>
